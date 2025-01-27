@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+
     <!--Google Font cdn-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,20 +16,63 @@
 
     <!--Tainwind cdn-->
     <script src="https://cdn.tailwindcss.com"></script>
+
+
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 </head>
 
 <body>
+    <!--Header Section-->
+    <header>
+        <!--Banner Section-->
+        <div class="lg:flex justify-between items-center mx-4 lg:mx-28">
+            <!--Banner Content-->
+            <div>
+                <h2 class="text-4xl font-bold text-[#1C1C1C] pb-3">It's good <br>
+                    tea time at The <br> Tea House</h2>
+                <p class="text-xs font-medium text-[#777777] pb-3 w-80">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg px-5 py-3 text-white">Explore More<i class="fa-solid fa-arrow-right -rotate-45 pl-1 text-2xl"></i></button>
+            </div>
+            <!--Banne Image-->
+            <div class="relative">
+                <!--Image Div-->
+                <div>
+                    <img class="w-full"  src="images/banner.png" alt="">
+                </div>
+                <!--Car Div-->
+                <div class="flex justify-between items-center bg-white shadow-lg rounded-lg px-2 py-2 absolute top-44 left-18 lg:top-96 lg:left-32">
+                    <!--icon-->
+                    <div>
+                        <i class="fa-solid fa-star text-amber-400 text-1xl lg:text-2xl"></i>
+                    </div>
+                    <!--Rating-->
+                    <div class="px-2">
+                        <h2 class="text-xl lg:text-2xl font-bold">5.00</h2>
+                        <p class="text-[#777777] text-xs">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Main Section-->
+    <main>
+
+    </main>
+
+    <!--Footer Section-->
+    <footer>
+
+    </footer>
 
 </body>
 
